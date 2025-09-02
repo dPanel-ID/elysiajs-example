@@ -15,10 +15,6 @@ build:
           command:
             - bun i
             - bun run build
-        # create your distributed storage to store your artifact (supported: s3, gcs, local, ftp, dpanel-agent-artifact)
-        - name: "Create Application Artifact" 
-          archive:
-            - server
 
 run:
   name: elysiajs-example
